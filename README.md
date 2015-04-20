@@ -1,4 +1,12 @@
 datasciencecoursera
 ===================
 
-test repo for "The Data Scientist’s Toolbox" Coursera course 
+extract the source data set from here
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+then expand it into your working directory.
+run "run_analysis.R" from R to extract the tidy data set "averages.txt"
+
+the rows in the datasets are described in features_info.txt features.txt.
+The first 30 columns of the dataset are the subjects of the experiments
+The last 6 columns of the dataset are the activities performed during the experiment.
+
