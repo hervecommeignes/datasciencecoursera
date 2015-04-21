@@ -87,10 +87,10 @@ rownames(averages_activity) <- labels
 averages_activity[,1:5]
 length(averages_activity)
 
+# combine into one table & write output
+
 averages <- rbind(averages_subject, averages_activity)
 head(averages)
-averages_per_variable <- t(averages)
-head(averages_per_variable)
 
 ?write.table
-write.table(averages_per_variable, file = "averages.txt", row.names = FALSE)
+write.table(averages, file = "averages.txt", row.names = FALSE)
